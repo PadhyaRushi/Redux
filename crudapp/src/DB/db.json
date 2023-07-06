@@ -1,0 +1,26 @@
+{
+    "details":
+    [
+        {
+            "id":1,
+            "name":"john",
+            "email":"john@gmail.com",
+            "mobile":8327737736,
+            "country":"Canada"
+        },
+        {
+            "id":2,
+            "name":"Angella",
+            "email":"Anglla@gmail.com",
+            "mobile":7827737736,
+            "country":"UK"
+        },
+        {
+            "id":3,
+            "name":"vinod",
+            "email":"vinod@gmail.com",
+            "mobile":9327737736,
+            "country":"India"
+        }
+    ]
+}

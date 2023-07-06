@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 100vh;
+    /* border: 5px solid red; */
+    width: 100%;
+    background-image: linear-gradient(135deg, #FFF6B7 10%, #F6416C 100%);
+
+}
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.weather-box{
+    /* border: 2px solid red; */
+    height: 470px;
+    width: 380px;
+    background-image: url("../../public/img/bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.150);
+    height: 100%;
+    border-radius: 25px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.search-bar{
+    height: 100px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.search-bar input{
+    width :80%;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    padding-left: 20px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.475);
+    color: white;
+}
+.temp-info{
+    /* border: 2px solid green; */
+    margin-top: 80px;
+    padding: 10px 40px;
+    color: rgba(255, 255, 255, 0.863);
+    position: relative;
+  
+    
+}
+.city{
+    position: absolute;
+    top: -3px;
+    left: 12%;
+    font-size: 20px;
+}
+.temp{
+    font-size: 60px;
+
+}
+.cloud{
+    position: absolute;
+    right: 10%;
+    /* bottom: -5px; */
+    /* letter-spacing: 1px; */
+    font-size: 18px;
+    bottom: -10%;
+    text-transform: uppercase;
+}
+.temp-icon{
+    height: 90px;
+    width: 90%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: rgba(255, 255, 255, 0.950);
+    background-color: rgba(255, 255, 255, 0.250);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.a1{
+    /* border: 2px solid khaki; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.f2{
+    font-size: 18px;
+}
